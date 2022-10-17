@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Number</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="icon" type="image/x-icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBIWFRgVFRIVGBUVFRkZFRgYFRISEhUYGhQZGRgYGBgcIS4lHB4rHxgYJjgmKy8xNTU1GiQ7QDs0Py40NTEBDAwMEA8QHxISHjErISE0NDQ0NDQ0MTQ0NDQ0MTQ0NDQ0NDQ0NDQ2NDQ0NDQ0PzY0NDQ0NDQ0NDQ0NDE1NDY0Nf/AABEIAOEA4AMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABAIDBQYHAQj/xABGEAACAQICBgMMBwYFBQAAAAABAgADEQQhBQYSMUFRYYGRBxMiMlJxkqGxssHRFCMzQmJywlNzgqLS4SRDk6PwFTREVGP/xAAaAQEAAwEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAKhEAAgIBBAEDAwQDAAAAAAAAAAECEQMEEiExQSIyUWFxkQUTM4EUI6H/2gAMAwEAAhEDEQA/AOvxEQBERAEREARE8dgBckADeSbAecwD2J4jgi4IIO4ggg+YiewBERAEREAREQBERAESBpHHFCqrbaIJN+A3DLt7J7orSHfVa4AZDZgN2e4joOfZM1kju2+S2yW3d4J0RE0KiIiAIiIAiIgCIiAIiIAiIgCaX3QtIlFWmpy8ZhzzsoPYT2TdJzjW2i1WvU5AhR/CoHtvM8r9NfJfH7jOdz6uXoPe9gwt0XXP2CbXNW1CQLSdeIYH1EfCZ3SGkadFdpjmfFUeM3mHLpiDUYWyJdslswAJJAAzJJsAOkzA47WVFJWku2fKNwg83FvV55i8Vi6uI8Y7Kg5ID4PX5RlzDYJBwE4c+triP5K2keDSGLc+PsqeCKq269/rl0Uqx31qnp1PnJiIBuEvBbzy56mb7k/yWU0QFo1+FWp6b/OXBisUn3ww5MAfWLH1yeFnjJMo6ucXw3+TRNPs9wmmVY7LqUbne6H+Lh19syswrUlIsRKsLValYX2kPDin5ejonp6X9S3Pbk/JEorwYjWnEMK+R8Wmo7Sx+ImK1J0k5xjo256bW6WUhh6tqZvH4cVHZyPG9gFh7JjtFaPVMXScbwWHajD4zaGWM8tr5L36a+hvURE9I5xERAEREAREQBERAEREAREQBNEx7fW1B5Tuf5jN7nPMW96rn8be8ZhndUN1FeAx70WJW24ixzB6befOWndnYu7FmPE/8yHRKHMoDzz8mRtV4MnKydTrgCZDDVbzGYTDl+2Zqhg9njPPyMIko+UrDylVtPdqc8osui5eVSyXlSnKZbGy+4uEy2UlN56jSVGUS24pKSxRwxWtTa33v0tJTmV0HBZb8GHy+M6dJm/2JP5Q3GWiIn1RQREQBERAEREAREQBERAEREAt4isEVnO5QT2cJzqo5JJ559szetGltpu9IfBXxiOLcvMPbNeWceed8fBlKXhFTNKLmVvLbzzrbdFC9QxTqfBBPmkwadAyZ1HnlGBrBab2A2s/ZOTazYut3w3JGeVsp1Y9Kpdl4ndsOHddtGBFuEjYnF1EOa5TWO5PpGq42WJKgWzztNw026t4O8iY59PGK4NKojJpEOdlR4RnmLNRF2ndQOkyJgaYRweiar3QsVUPik24WkYNNGSBsmE02ztYEE9Ey2H0itwHurHgZxLVXSFf6SgBJzF53jE4ZHpK7LZwoz6pbPpYxQRXtXlLDlLWD8UZy6TPDyVjlwSZTAYnbXPxlyPT0yVNZpYgo+0Dx3cLcQZslNwwDDcZ9H+n6tZ4U3yv+gqiInogREQBERAEREAREQBMXp7SXekyPhtkvQOLTJVaiqpZjZVBJPICc30vpNqzs3C9lHJRuEpKVIpOW1Ed6m0ZcWR6CSUBPOyy5owT8lM8IuJXaJz+bLFrDVSpIO4mMVq/RrHaIAMvJSu0jaax3eBvztum0M0ukaRM9o76Pg6dk2Q1s+Ex1DSodyzNv3TR8TpdnOZNjLuGxfTM8spyRoujodTEIbG4kfF4GnXWzWmtU8fZRnJuA0wAbNxMzxzlAUZLQurGGpPt2FwZsmJxe0Aqjwf7SLgKaOu1eT0pAZWlM2qbJopprYZSlzLqpKKq2nj5nbsJEGovG0yOi8Xsmx3H1dMiuMpZU7O6W0ueWGaaJaNqUg5jcZ7MTo3F28E+L7P7TLCfX6fURzRuP9kNUIiJ0ECIiAIiIAiJHx+LWkjO25RkPKPADzmAa3rnpQKBQU5mzP5vuqfb2TTla88xeIZ6jMxuzMSev4SumoynPkkzllLdKyRh5eMtUzwl4CebN8kgCOM9WBvlGSSFsFY/83TQNY8Q7vc7p0Kgl7iRsTqyrm5AkRmos0j0crp1DeZDC57uU3uvqciqSF4TX30BUVslym0s0JGhBD27Ip44XAHObHgdWi4G0PbMnQ1MQG9hv6Zg8kEuSUear42oSBwm7KMpitG6ISnwEywM87NNWaJKj0jKQ6zmS3Ei1UnHJ2NtIsEyy4lTtKC2cxu2UkVplbOZTR+Lsdlj4JNlPknl5phqhlVOp/cT09Jq3hlaCfybZExujcdtWRjn908+g9MyU+rxZY5YqS6ZURETQCIiAJoWtultuoaSnwKRsfxPbwj1bu2blpXF96o1KvkIzDpa3gjttOPLVLZkkkm5PMk5mWjG1ZjmlSokOJew78xLDvPaYJM5s8eDGJkkIvlLyyJQaxk1SJ5U1TNAplN/bKyM5S4lVySSMM+fXM5hny3zXqJzmawjZTDIqLRfBkt4ltsKnES7TlVpzOTLFCIAMpcQ5SgiVpM5MsitDPbSi89YzGSZqiotI9c5T13kerUymUnRL4I7DKWmErLS06kzJclHyzwmAZQTKKjy8ItvghlRxdjs3seBG8HgRNq0Pju/Ulc5NmrjkymzdRtfzETnT1Czi3XNq1RrkPWpHd4FResFX91O2fT/AKbOvT8lFJtm0RET2CwiIgGsd0GuVwhUb3dV6hd/aonNtHIW7ZuvdLxFhSS/B27SAPYe2aNoipYsLzfG+KOfKuSa5F7QrkSNVfOFqTnzxIiidQq55zI06omERxeTKFYc55OWPJeSozCkWnuzISYkAb5c+mqBOVumVRLpr7Zk8NlMNQx1Pf0yWulKY3TmyNs1ijP03ylzvkw1DS9PibSR/wBRpncwnPyWoyKvPQZCXFp5Yl4YlPKEiguyQrTx3lC1VO4ievnuMhovuLLveRqry7WQiQe+8zMJwbDfBeZpaNWWmryzUrCVjBplGy9UqDnIlWrkZZqV5Eq4kCdUMbfRW7GFN3md0FU2MbTz+1punWAHHuGapg8Vd8uc2OiPrcM43jEIOpjsn1NPV0lxmiI9nQYiJ7xoIiIByvuk4naxOx5CIvWbuffE1XRRO2eUl62YrbxVZr3BqMB5gxA9QEt6LogLfiZMZcmUlZTiDnKA+cuYnzSGzGTlW5FIqiUlQXlwVrTHq89JnnThyaL1E44wz0Y3nMbPGmEsaJ2o2XAPSbfvvMxh1onzzREYiSExTjiZzywWWaOgLh6JG8bp4cDSO5hNKpaRYceHOTaek92fDnMHp2iTZvoCeXPU0aP2nrmvrpEcTKjpS25pH7DJo2ShgWByqeuT0Zl4zTE0u3le2U1NLVDYbRlP2GiDcsXjgFNzMAuMBO+YR8cx3knrnqvxBlZYWmQzMviZafEzGmpLb1DzhYbZUv1sVIlXEZyJVqm8sozswVAWdmCqozZmJsAOudmLCTGNsn0DsMGtNu0a4YoTwqI3ouDMNrToJ8LTw7FgzOCtXyVceEAvRYkX/DfjLmg8Tff923qnQ8bhJX4DjR1eIvE9csJRXqBFZzuVSx6hf4SuYzWSrsYaseaFfTsn6oYOH4lizkni069qtoej9DTbpKTWTaYkDas2a2O8eDY5cZyqpS2qiIPvuFHnJAHtnd6VMKoVdygKPMBYeyZQ7IS4OSa06GfDPZgWptfvbgZN+FuTD17/ADa5UAE7zjsHTrI1OogZGGYPqIPAjnOUa0asVMM21m9EnwXtmL7lfkencfUNt1IOKZqwOcEz11ltpyZFyQo0VqZ6JQplQM5+x2CZ5BiVLHgBlW0Z5PRBBUKp3QXMptPIokupVMr79LE9tIcUyLolJUkxH9kxQMkpUmM4EMnM8i1q9jLT1+mQ6lUkyI46ZKTZW9W950zuf6rmmBiqy/WMPqkIzRSPGI4Mw3cgenLEagaoFyuJxC/Vg3pIR9oeDsPJHDmejf1KejgxUtzLPg1bui4XbwZa2dOoj9Ruh9+c40fW2G887HpfC98oVafF6bAfm2TsnttOdaK0ZTcKx35GU1ap2H0dLwNTapo3lIh7VBl+RdGfYoB91dn0cvhJU7IO4p/QgTXdeauzhWHlOg9rfpmxTUu6JUtQRedS/Yh/qiXtYNB0HR28bhl51lJ/hO3+mdrnItRqO3pBP/mjufRKD1uJ12UxdMliU1aaupVlDKwsykAqQd4IO+VRNSDmutOpDJephlLpmWp5s6/l4svRvHTNEdTyn0LOad0XCItdWVFUvTLOQLbRDEbR6bcZjkjStEN8GiWynhWSWUE5Q9PhOSXBK5Ipi0kbEpKGUsjksrKpUaZjvZiw0ygmeSspPQkixTKFM9nuzKdmNyISYDTxnjZlNWwluCTxjebzqTqV3zZxGJUinvSmRbvnJn/D0fe82+XqDqpRemmKq+HtM2whHgDZYrtP5WanLdzvw6POjFhv1Mu5UqR4BbIZAbuAE9iJ1lQJouHAR2QC2y7r2MRN6mk6RBTEv+fa9JQ3xM5NWvSmSuUbPod7oehyPUD8ZPmJ0C9w46VPaD8plprp3eNECaR3Sm8Git95qHsCD4zd5ovdHFzSHJXPaV+UvP2krsxvcwpA4mu9s0pKvpvf9E6ZNC7l1PLEtxL019EOf1TfYx+0S7EREuQJzbuj1frwPJor62czpM5T3RKv+JfoRB/ID8ZSftIZqeq+CbEYtKQJs7+F+FRmx9EGdnx+quDqqAaIQgABk8BgALC9sm6wZoHcgwe1XrVSMkTZHndvkjds61M8cE1bXZbo0XE9ztP8vEEcg6Bj6SkeyY2tqDix4lSiw/M6nsK29c6ZEPTwZNs5LW1Nxy/5O1+V6Z9Ra8iPq3jB/wCLV6l2vZOyxKPSx+WN30OKtoDF/wDq1/8ASqfKeJoHF3/7Wv8A6VT5TtcR/ir5G76HG11axj7sLU61Ce9aTsLqJjG8ZET8zqfc2p1aJK0sV22G7NEXUGmlJ2qVCzKjMAg2VuFJFybki/QJzenhds7p3zG/Zv8Akf3DOO6Kofe6JXNCMUqKNnTNSqGxgqS8tv11XMzsx+gUthqY/BftJPxmQnRBVFfZEiIiXAmp6eQfSD0oje0fCbZNY08f8So50V995zar+MsiXq+fDcc1U9hPzmcmD0N9q37v9Qmck6X+Nf2QxNA7ornviKOFO/a7fKb/ADl2uWPD4pgNyAJfpXxv5iw6prk9pSUtqM93NEtRqnnW/QPnNznPdStKpRdqTZLUZbNwVrWF+g7uoToUY5Jx4EZblYiIlywnF+6BXvia2f39n0VC/CdonBNcK4evUO/bquR5i5tKZOiGdB7kWC2MGznfVrMQeaqAo9e1N6mD1Kw3e8Bh1ta9MP6ZL/qmckxVRRIiIlgIiIAiIgCIiAWcZ9nU/I/umcgwFSwM65pJrUah5Un90zkGEUZicuo8EHXNDC2Ho/uk9aAyZLODTZpovkog7FAl6dMVSRIiIkgTWNP2+kpf9iPfebPMPpTDK9TaO9UC9e0T8ZzatpY3ZKLehx9Yf3f6lmcmF0WwFUjddSB02IPsBmakaOSeKyBMK+quBJJNC5JuSalYknn40zUTqqyGk+zDjVfBfsB6dX+qZZFAAA3AWFyScuk5mVRISS6QSS6EREkkTXq2pOjWO02Gub3v33Ef1zYYgFNKmqKqKLKihVHIAWA7BKoiAIiIAiIgCIiAIiIBRVpq6sjC6spVhmLgixFx0TEDVTAjdQ/3K39czUSHFPtA8AtlynsRJAiIgCWjhkOezv35n5y7ErKKlw0n9wRTo+ltBtjwgbghmBB6jJURIjGMeEkvsBERLgRESQIiJAEREAREQBERAEREAREQBERAEREkCIiQBERAEREhgREQD//Z">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,300&display=swap" rel="stylesheet">    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+
+
+    <style>
+        html, body {
+            min-height: 100%;
+        }
+        body, div, form, input, select {
+            padding: 0;
+            margin: 0;
+            outline: none;
+            font-family: 'Montagu Slab', serif;
+            font-size: 10px;
+            color: #eee;
+        }
+        body {
+            background: url("/uploads/media/default/0001/01/b5edc1bad4dc8c20291c8394527cb2c5b43ee13c.jpeg") no-repeat center;
+            background-size: cover;
+        }
+        h1, h2 {
+            text-transform: uppercase;
+            font-weight: 400;
+        }
+        h2 {
+            margin: 0 0 0 8px;
+            margin-top: 20px;
+        }
+        .main-block {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            padding: 25px;
+            background: #9ED2C6;
+        }
+        .left-part, form {
+            padding: 25px;
+        }
+        .left-part {
+            text-align: center;
+        }
+        .fa-graduation-cap {
+            font-size: 72px;
+        }
+        form {
+            background: rgba(0, 0, 0, 0.7);
+        }
+        .title {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+        input, select {
+            padding: 5px;
+            margin-bottom: 30px;
+            background: transparent;
+            border: none;
+            border-bottom: 1px solid #eee;
+        }
+        input::placeholder {
+            color: #eee;
+        }
+        button {
+            width: 100%;
+            border-radius: 8px;
+            border: none;
+            font-family: 'Montagu Slab', serif;
+        }
+        button:hover, .btn-item:hover {
+            background: #85d6de;
+        }
+        .fname {
+            margin-top: 20px;
+        }
+        @media (min-width: 568px) {
+            html, body {
+                height: 100%;
+            }
+            .main-block {
+                flex-direction: row;
+                height: calc(100% - 50px);
+            }
+            .left-part, form {
+                flex: 1;
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="main-block">
+    <form name="myForm" action="/SecondServlet" onsubmit="return validateForm()" method="GET">
+        <div class="title">
+            <i class="fas fa-pencil-alt"></i>
+            <h2>Enter number</h2>
+        </div>
+        <div class="info">
+            <input class="fname" type="text" name="id" placeholder="Number">
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        function validateForm() {
+            let x = document.forms["myForm"]["id"].value;
+            if (isNaN(x) || x == "") {
+                alert("Id,  must be a number");
+                return false;
+            }
+        }
+
+    </script>
+</div>
+</body>
+</html>
