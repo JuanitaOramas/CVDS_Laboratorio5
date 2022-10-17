@@ -1,5 +1,5 @@
 # LABORATORIO #5:
-### Integrantes: Wilcho dindo, Juanita Oramas
+### Integrantes: Wilson Delgado, Juanita Oramas
 
 #### PARTE I
 
@@ -16,21 +16,30 @@
  ```
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá
 como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
+
 ![img.png](images/img.png)
 
 6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando
 un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
 
 ![img_1.png](images/img_1.png)
+
 7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
+
 ![img_2.png](images/img_2.png)
+
 8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+
 ![img_5.png](images/img_5.png)
+
 ![img_4.png](images/img_4.png)
+
 9.  Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los
     métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
 10. Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior:
+
 ![img_7.png](images/img_7.png)
+
 11. Cree una clase que herede de la clase HttpServlet (similar a SampleServlet), y para la misma sobrescriba el método heredado doGet. Incluya la
     anotación @Override para verificar –en tiempo de compilación- que efectivamente se esté sobreescribiendo un método de las superclases.
 12. Para indicar en qué URL el servlet interceptará las peticiones GET, agregue al método la anotación @WebServlet, y en dicha anotación, defina la

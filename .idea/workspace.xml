@@ -5,35 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dfd54dbe-8936-465b-ba44-49e3bbaf6b5b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_17.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/img_9.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/calculator/CalculatorBackingBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/servlet/model/Todo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +63,7 @@
       <workItem from="1665625531006" duration="8012000" />
       <workItem from="1665756917162" duration="9021000" />
       <workItem from="1665958552624" duration="4274000" />
-      <workItem from="1665972314616" duration="226000" />
+      <workItem from="1665972314616" duration="1079000" />
     </task>
     <servers />
   </component>
