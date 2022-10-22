@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:ui="http://java.sun.com/jsf/facelets">
+<h:head></h:head>
+<h:body>
+    <h:form id="guess_form">
+
+        <h:outputLabel style="display: none;"/>
+
+        <h:inputText type="text" binding="#{input}" />
+
+        <h:outputLabel value="#{CalculatorBackingBean.getTries()}"/>
+
+        <h:outputLabel value="#{CalculatorBackingBean.getstate()}"/>
+
+        <h:outputLabel value="#{CalculatorBackingBean.getAccumulativePrice()}"/>
+
+        <h:commandButton value="Send" update="guess_form"
+                         actionListener="#{CalculatorBackingBean.guess(input.value)}"/>
+
+        <h:commandButton value="Restart" update="guess_form"
+                         actionListener="#{CalculatorBackingBean.restart()}"/>
+
+    </h:form>
+</h:body>
+</html>
