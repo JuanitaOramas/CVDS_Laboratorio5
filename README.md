@@ -75,9 +75,13 @@ un parámetro GET (si no sabe como hacerlo, revise la documentación en http://w
 20. Recompile y ejecute la aplicación. Abra en su navegador en la página del formulario, y rectifique que la página hecha anteriormente sea mostrada.
     Ingrese los datos y verifique los resultados. Cambie el formulario para que ahora en lugar de POST, use el método GET . Qué diferencia observa?
 
-* Cuando se hace con GET: Encontramos que se retorna la página con los valores del todo del id ingresado.
-* Cuando se hace con POST:
+* Cuando se hace con GET: Encontramos que se retorna la página con los valores del todo del id ingresado. En la URL se evidencia que se muestra el id ingresado directamente.
 
+![img_1.png](img_1.png)
+
+* Cuando se hace con POST: En la URL se evidencia que no se muestra el id ingresado directamente.
+
+![img.png](img.png)
 
 21. ¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno
 
