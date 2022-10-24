@@ -18,7 +18,7 @@
    Asegúrese de presionar ENTER dos veces después de ingresar el comando.
    Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
    
-   ![img_10.png](img_10.png)
+   ![img_28.png](images/img_28.png)
    ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
    Sale error código 400, el servidor no procesa el "request" por un error del cliente
     
@@ -38,10 +38,11 @@ De error 5XX se tiene: 500 (Error interno del servidor), 502(Bad Gateway), 503(S
    Puerto: 80
    Versión HTTP: 1.1
    Ahora, solicite (GET) el recurso /html. ¿Qué se obtiene como resultado?
-   ![img_14.png](img_14.png)
+   
+    ![img_32.png](images/img_32.png)
 5. Seleccione el contenido HTML de la respuesta y copielo al cortapapeles CTRL-SHIFT-C. Ejecute el comando wc (word count) para contar palabras con la
    opción -c para contar el número de caracteres:
-   ![img_15.png](img_15.png)
+   ![img_33.png](images/img_33.png)
    Claro está, las peticiones GET son insuficientes en muchos casos. Investigue: ¿Cuál es la diferencia entre los verbos GET y POST? ¿Qué otros tipos de
    peticiones existen?
    * GET vs POST: 
@@ -56,14 +57,14 @@ De error 5XX se tiene: 500 (Error interno del servidor), 502(Bad Gateway), 503(S
    curl www.httpbin.org
    ~~~
 
-   ![img_11.png](img_11.png)
+   ![img_29.png](images/img_29.png)
    Utilice ahora el parámetro -v y con el parámetro -i:
    ~~~
    curl -v www.httpbin.org
    curl -i www.httpbin.org
    ~~~
-   ![img_12.png](img_12.png)
-   ![img_13.png](img_13.png)
+   ![img_30.png](images/img_30.png)
+   ![img_31.png](images/img_31.png)
 ¿Cuáles son las diferencias con los diferentes parámetros?
 * Para -v: muestra más información sobre la petición como la versión usada de curl, protocolos, puertos.
 * Para -i:  incluye los headers HTTP.
@@ -84,18 +85,18 @@ De error 5XX se tiene: 500 (Error interno del servidor), 502(Bad Gateway), 503(S
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá
 como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
 
-![img.png](images/img.png)
+![img_18.png](images/img_18.png)
 
 6. Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando
 un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
 
-![img_1.png](images/img_1.png)
+![img_19.png](images/img_19.png)
 
 7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
 
-![img_2.png](images/img_2.png)
+![img_20.png](images/img_20.png)
 
-8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
+8. En el navegador revisé la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
 
 ![img_5.png](images/img_5.png)
 
@@ -144,11 +145,11 @@ un parámetro GET (si no sabe como hacerlo, revise la documentación en http://w
 
 * Cuando se hace con GET: Encontramos que se retorna la página con los valores del todo del id ingresado. En la URL se evidencia que se muestra el id ingresado directamente.
 
-![img_1.png](img_1.png)
+![img_19.png](images/img_19.png)
 
 * Cuando se hace con POST: En la URL se evidencia que no se muestra el id ingresado directamente.
 
-![img.png](img.png)
+![img_18.png](images/img_18.png)
 
 21. ¿Qué se está viendo? Revise cómo están implementados los métodos de la clase Service.java para entender el funcionamiento interno
 Se está evidenciando una tabla con la información del todo del id que enviamos.
@@ -190,33 +191,34 @@ Se está evidenciando una tabla con la información del todo del id que enviamos
 
 9. Para verificar el funcionamiento de la aplicación, agregue el plugin tomcat-runner dentro de los plugins de la fase de construcción (build). Tenga en
    cuenta que en la configuración del plugin se indica bajo que ruta quedará la aplicación:
-![img_2.png](img_2.png)
+![img_20.png](images/img_20.png)
 
 10. Si todo funcionó correctamente, realice las siguientes pruebas:
     a. Abra la aplicación en un explorador. Realice algunas pruebas con el juego e intente adivinar el número.
-    ![img_3.png](img_3.png)
+    ![img_21.png](images/img_21.png)
     b. Abra la aplicación en dos computadores diferentes. Si no dispone de uno, hágalo en dos navegadores diferentes (por ejemplo Chrome y Firefox;
     incluso se puede en un único navegador usando una ventana normal y una ventana de incógnito / privada). Haga cinco intentos en uno, y luego
     un intento en el otro. ¿Qué valor tiene cada uno?
-    ![img_4.png](img_4.png)
+    ![img_22.png](images/img_22.png)
     c. Aborte el proceso de Tomcat-runner haciendo Ctrl+C en la consola, y modifique el código del backing-bean de manera que use la anotación
     @SessionScoped en lugar de @ApplicationScoped. Reinicie la aplicación y repita el ejercicio anterior.
     * ¿Coinciden los valores del premio?.
-      ![img_5.png](img_5.png)
+      ![img_23.png](images/img_23.png)
     * Dado la anterior, ¿Cuál es la diferencia entre los backing-beans de sesión y los de aplicación?
     Con session scope se tiene la información de las variables para cada usuario, en cambio en application scope la información del estado de las variables está para todos los usuarios. 
     d. Por medio de las herramientas de desarrollador del explorador (Usando la tecla "F12" en la mayoría de exploradores):
     * Ubique el código HTML generado por el servidor.
     * Busque el elemento oculto, que contiene el número generado aleatoriamente.
     * En la sección de estilos, deshabilite el estilo que oculta el elemento para que sea visible.
-    ![img_6.png](img_6.png)
+    
+    ![img_24.png](images/img_24.png)
     
     * Observe el cambio en la página, cada vez que se realiza un cambio en el estilo.
     Al realizar un cambio, se ve inmediatamente reflejado.
     * Revise qué otros estilos se pueden agregar a los diferentes elementos y qué efecto tienen en la visualización de la página.
-    ![img_7.png](img_7.png)
+    ![img_25.png](images/img_25.png)
     * Actualice la página. Los cambios de estilos realizados desaparecen, pues se realizaron únicamente en la visualización, la respuesta del
     servidor sigue siendo la misma, ya que el contenido de los archivos allí almacenados no se ha modificado.
-    ![img_9.png](img_9.png)
+    ![img_27.png](images/img_27.png)
     * Revise qué otros cambios se pueden realizar y qué otra información se puede obtener de las herramientas de desarrollador.
-    ![img_8.png](img_8.png)
+    ![img_26.png](images/img_26.png)

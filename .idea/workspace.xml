@@ -5,28 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1ce5f69e-0f96-47a8-8b4f-f2070447e880" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/img_10.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_11.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_12.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_13.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_14.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_15.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_6.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_7.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_8.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img_9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_18.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_19.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_10.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_28.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_11.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_29.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_12.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_30.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_13.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_31.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_14.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_32.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_15.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_33.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_20.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_21.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_22.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_23.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_24.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_25.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_26.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/img_27.png" afterDir="false" />
     </list>
-    <list id="ec2e32db-6ce4-4820-9760-80798872fbf2" name="Changes by User" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/calculator/CalculatorBackingBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/cvds/calculator/CalculatorBackingBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/guess.xhtml" afterDir="false" />
-    </list>
+    <list id="a56cbc93-ffe9-4e93-8ca2-0af587c9c565" name="Changes by User" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,20 +32,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="LineStatusTrackerManager">
-    <file path="$PROJECT_DIR$/README.md">
-      <ranges>
-        <range start1="4" end1="4" start2="4" end2="69" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="6" end1="6" start2="71" end2="73" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="7" end1="8" start2="74" end2="74" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="9" end1="9" start2="75" end2="76" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="97" end1="98" start2="164" end2="169" changelist="ec2e32db-6ce4-4820-9760-80798872fbf2" />
-        <range start1="103" end1="103" start2="174" end2="189" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="104" end1="104" start2="190" end2="193" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-        <range start1="105" end1="105" start2="194" end2="222" changelist="1ce5f69e-0f96-47a8-8b4f-f2070447e880" />
-      </ranges>
-    </file>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -71,6 +55,11 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Escritorio\Juanita\Universidad\8 semestre\CVDS\Lab4\CVDS_Laboratorio5\images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
