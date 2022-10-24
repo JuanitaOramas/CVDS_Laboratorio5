@@ -2,9 +2,10 @@ package  edu.eci.cvds.calculator;
 
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
+import javax.faces.bean.ApplicationScoped;
 
 @ManagedBean(name = "CalculatorBackingBean")
-@SessionScoped
+@ApplicationScoped
 public class CalculatorBackingBean {
 
     private int guessNumber = (int)Math.floor(Math.random()*(100-0+1)+0);

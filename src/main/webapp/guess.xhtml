@@ -7,19 +7,20 @@
 <h:body>
     <h:form id="guess_form">
 
-        <h:outputLabel style="display: none;"/>
+        <h:outputLabel style="display: none;"  value="#{CalculatorBackingBean.getGuessNumber()}" />
+        <br />
 
         <h:inputText type="text" binding="#{input}" />
-
+        <br />
         <h:outputLabel value="#{CalculatorBackingBean.getTries()}"/>
-
+        <br />
         <h:outputLabel value="#{CalculatorBackingBean.getstate()}"/>
-
+        <br />
         <h:outputLabel value="#{CalculatorBackingBean.getAccumulativePrice()}"/>
-
+        <br />
         <h:commandButton value="Send" update="guess_form"
                          actionListener="#{CalculatorBackingBean.guess(input.value)}"/>
-
+        <hr />
         <h:commandButton value="Restart" update="guess_form"
                          actionListener="#{CalculatorBackingBean.restart()}"/>
 
